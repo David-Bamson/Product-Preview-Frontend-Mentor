@@ -92,11 +92,16 @@ body {
     font-family: 'Inter', sans-serif;
     font-weight: 600;
     font-size: clamp(.6rem, .8vw + .7rem, 1.5rem);
+    transition: all .5s ease;
 }
 
 .add-cart img{
     margin-right: 10px;
     width: 20px;
+}
+
+.add-cart:hover{
+    background: #244e40;
 }
 
 /* Mobile responsiveness */
@@ -151,33 +156,33 @@ body {
         color: #858484a4;
 }
 
-.product-name {
-    font-size: clamp(1rem, 1.6vw + 2.3rem, 3rem);
-    font-weight: 700;
-    line-height: 1;
-    margin-top: 10px;
-    margin-bottom: 30px;
-}
+    .product-name {
+        font-size: clamp(1rem, 1.6vw + 2.3rem, 3rem);
+        font-weight: 700;
+        line-height: 1;
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
 
 
-.price{
-    display: flex;
-    align-items: center;
-    gap: 50px;
-    margin-bottom: 40px;
-}
+    .price{
+        display: flex;
+        align-items: center;
+        gap: 50px;
+        margin-bottom: 40px;
+    }
 
-.discount-price {
-    font-size: clamp(2rem, 1.8vw + 2.8rem, 4rem);
-    font-weight: 700;
-    color: #326b58;
-    font-family: Times, serif;
-}
+    .discount-price {
+        font-size: clamp(2rem, 1.8vw + 2.8rem, 4rem);
+        font-weight: 700;
+        color: #326b58;
+        font-family: Times, serif;
+    }
 
-.former-price {
-    text-decoration: line-through;
-    font-family: 'Inter', sans-serif;
-    color: #858484a4;
-    font-weight: 700;
-}
+    .former-price {
+        text-decoration: line-through;
+        font-family: 'Inter', sans-serif;
+        color: #858484a4;
+        font-weight: 700;
+    }
 }
